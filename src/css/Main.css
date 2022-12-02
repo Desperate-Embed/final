@@ -20,17 +20,18 @@
 
 .Box {
   position: relative;
-  width: 23vw;
-  height: 30vw;
-  border: 1px solid black;
+  width: 15vw;
+  height: 20vw;
+  border: 0.5vw solid black;
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
 }
 
 .Box관리자용 {
   position: absolute;
   top: -5vw;
-  font-family: "Inter";
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
@@ -55,7 +56,32 @@
   position: absolute;
   top: 17vw;
   font-size: 2vw;
-  font-family: "Inter";
+  font-family: "IBM Plex Sans KR", sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: bold;
+}
+
+.madeby {
+  position: absolute;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-size: 2vw;
+  bottom: 1vw;
+}
+
+.blackleft {
+  position: absolute;
+  width: 5vw;
+  height: 100vh;
+  background-color: black;
+  left: 0;
+  z-index: -1;
+}
+
+.blackright {
+  position: absolute;
+  width: 5vw;
+  height: 100vh;
+  background-color: black;
+  right: 0;
+  z-index: -1;
 }

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <div>
-      <div className="headerspace">
+    <div className="Headercenter">
+      {/* <div className="headerspace">
         <Link to="/Manage" style={{ textDecoration: "none" }}>
           <span className="nav">하수구 관리</span>
         </Link>
@@ -15,10 +15,11 @@ export function Header() {
           <span className="nav">쓰레기 확인</span>
         </Link>
         <span className="nav">기록 확인</span>
-      </div>
+      </div> */}
       <Link to="/Main" style={{ textDecoration: "none" }}>
         <div className="logo">
           <span className="header스마트배관공">스마트배관공</span>
+          <img src="/image/mine.png" className="mine"></img>
         </div>
       </Link>
     </div>
