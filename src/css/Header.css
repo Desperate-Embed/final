@@ -1,0 +1,36 @@
+.headerspace {
+  display: flex;
+  position: fixed;
+  right: 2vw;
+  justify-content: space-around;
+  width: 50%;
+  height: 7vw;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  position: fixed;
+  left: 5vw;
+  text-align: center;
+  align-items: center;
+  height: 7vw;
+  width: 50%;
+}
+
+.header스마트배관공 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  color: black;
+}
+
+.nav {
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+}

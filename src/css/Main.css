@@ -1,0 +1,61 @@
+.Mainbody {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Boxcenter {
+  position: absolute;
+  top: 15vw;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Boxspace {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.Box {
+  position: relative;
+  width: 23vw;
+  height: 30vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Box관리자용 {
+  position: absolute;
+  top: -5vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+}
+
+.세로 {
+  position: absolute;
+  top: 5vw;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.boximg {
+  width: 60%;
+}
+
+.boxtext {
+  color: black;
+  position: absolute;
+  top: 17vw;
+  font-size: 2vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+}
